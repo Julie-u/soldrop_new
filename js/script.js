@@ -74,7 +74,7 @@ products.forEach((product) => {
     oneProduct.innerHTML = `
     <header>
         <div class="game-picture">
-            <a href="product.html"><img src="../img/${product.GameImage}" alt="${product.GameTitle}"></a>
+            <a href="product.html"><img src="img/${product.GameImage}" alt="${product.GameTitle}"></a>
         </div>
         <h3>${product.GameTitle}</h3>
         <h4>${product.GameGenre}</h4>
